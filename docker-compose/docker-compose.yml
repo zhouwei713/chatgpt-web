@@ -7,7 +7,7 @@ services:
     ports:
       - 3002:3002
 		extra_hosts:
-      - "bypass.duti.tech:104.21.8.183"
+      - bypass.duti.tech:104.21.8.183
     environment:
       # 二选一
       OPENAI_API_KEY:
